@@ -1,0 +1,169 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	color: #3a3a3a;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.main-nav {
+	margin-top: 5px;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.name {
+	font-size: 1.35em;
+}
+
+.name a {
+	color: #0D3B57;
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+
+.hero {
+	background-color: #43CDC1;
+	color: white;
+	margin-bottom: 50px;
+}
+
+.hero img {
+	width: 50%;
+	padding-top: 50px;
+}
+
+.headline {
+	font-size: 3em;
+}
+
+.tagline {
+	font-size: 1em;
+	padding-bottom: 30px;
+}
+
+.col {
+	background-color: #EDF4F7;
+	margin: 6px 15px;
+	border-radius: 10px;
+	padding-left: 15px;
+	line-height: 1.3;
+}
+
+.col a {
+	background-color: #43CDC1;
+	color: #FFFFFF;
+	padding: 12px 20px;
+	border-radius: 10px;
+}
+
+.tertiary span {
+	font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+.main-footer {
+	background-color: #D9E4E9;
+	height: 90px;
+}
+
+
+
+
+@media screen and (min-width: 769px) {
+	.main-header {
+		margin: 0 auto;
+	}
+
+	.row {
+		margin: 50px;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.main-header {
+		width: 80%;
+		max-width: 1150px;
+	}
+
+	.row {
+		margin: 50px 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
