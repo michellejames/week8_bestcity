@@ -39,16 +39,17 @@
 		flex-direction: row;
 	}
 
-	.col a {
-		flex-grow: 2;
-	}
-
 }
 
 @media screen and (min-width: 1025px) {
 
 	.main-header {
 		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.row {
+		display: flex;
 		justify-content: space-around;
 	}
 
