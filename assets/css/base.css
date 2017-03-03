@@ -82,6 +82,10 @@ a{
 	padding-bottom: 30px;
 }
 
+.row {
+	margin-bottom: 20px;
+}
+
 .col {
 	background-color: #EDF4F7;
 	margin: 6px 15px;
@@ -95,6 +99,8 @@ a{
 	color: #FFFFFF;
 	padding: 12px 20px;
 	border-radius: 10px;
+	margin-top: auto;
+	margin-bottom: 15px;
 }
 
 .tertiary span {
@@ -107,6 +113,7 @@ a{
 }
 
 @media screen and (min-width: 769px) {
+
 	.main-header {
 		margin: 0 auto;
 	}
@@ -117,6 +124,7 @@ a{
 }
 
 @media screen and (min-width: 1025px) {
+	
 	.main-header {
 		width: 80%;
 		max-width: 1150px;
